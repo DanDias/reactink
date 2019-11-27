@@ -71,7 +71,7 @@ LIST ALL_FACTS = Is_Busted, Reluctant_To_Give_Name, Blames_Child, Remote_Heal, D
 {shouldEnd(): ->Almost_Caught}
 {getJournalDate()}
 { day == 1:
-    -> School -> Loop
+    -> School
 - else:
     * We needed food[...] so we drove over to {groceryStoreName}.
     -> GroceryStore

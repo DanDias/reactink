@@ -6,10 +6,13 @@ export const INITIAL_STATE = {
 export default (state = INITIAL_STATE, { type, ...action }) => {
   switch (type) {
     case MAKE_CHOICE:
-      return {
-        ...state,
-        ...action
-      }
+      return Object.assign({}, state, {
+        globals: action.globals,
+        tags: Object.assign({}, state.tags, action.tags),
+        currentChoices: action.currentChoices,
+        sceneText: action.sceneText,
+        currentTags: action.currentTags
+      })
     default:
       return state
   }

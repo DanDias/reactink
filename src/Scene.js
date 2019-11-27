@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const backgroundImages = {
+  paper: './img/paper.png'
 }
 const defaultImage = ''
 

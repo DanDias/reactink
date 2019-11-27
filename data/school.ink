@@ -23,13 +23,13 @@ The next couple minutes seemed like hours.
 "Here's the note saying that you were late. Have a good day."
 Awfully judgey. I grabbed the note and walked to my {childTitle}'s classroom.
 
-->-> 
+-> Loop
 
 == SchoolParentEncounter ==
 #background: playground
 ~ ALL_FACTS += (School_Early)
 I let {childPronoun2} go play with the other children and I sat on a bench as far away from other parents as possible. I brought a book with me and pretended to read it while I kept tabs on my {childTitle}.
-* Parents on the playground[...] was still a weird thing to me. When I was younger kids of all ages were just dropped off and parents went to work. I kept to myself so I barely knew any of their names.
+* Parents on the playground[...] was still a weird thing to me. When I was younger, kids of all ages were just dropped off and parents went to work. These parents are different. They stick around. That works for me since I need to make sure nothing goes wrong. I kept to myself so I barely knew any of their names.
 * The playground[...] was an odd bright blue structure with rounded edges on everything and the ground was filled with recycled rubber tire pieces, sanded smooth. I chuckled to myself as I remembered the wooden and steel monstrosities of my chlidhood and the ground filled with gravel.
 * The book I was pretending to read[...] was a cheap paperback I found in a closet when we moved in. The edges of the book were worn as if it had been read many times. The story itself was a swords and scorcery fantasy book. I didn't much care for the genre, but they were generally thick and made it plausible I was reading the same thing every day. I turned about ten pages a day; eleven on a good day.
 - "Hey!" A woman with short brown hair approached. I'm so bad with names. What was her name... <>
