@@ -1,5 +1,10 @@
 INCLUDE intro.ink
 INCLUDE school.ink
+INCLUDE grocery.ink
+INCLUDE movie.ink
+INCLUDE inside.ink
+INCLUDE park.ink
+INCLUDE truthteller.ink
 
 VAR childGender = "F"
 VAR childTitle = "daughter"
@@ -15,26 +20,44 @@ VAR parentY = "Parent\"y\""
 VAR suspicion = 0
 VAR day = 0
 
-LIST ALL_FACTS = Is_Busted, Reluctant_To_Give_Name, Blames_Child, Remote_Heal, Desparate, School_Late, School_Early, Named_ParentY, Lied_About_Weekend, Too_Honest_About_Weekend, Is_Silly, Smartass_To_Kid
+// Variable names because I'm indecisive and lazy
+CONST ctdName = "Fred"
+CONST ctdWifeName = "Mary"
+CONST groceryStoreName = "Walmart"
+
+LIST ALL_FACTS = Is_Busted, Reluctant_To_Give_Name, Blames_Child, Remote_Heal, Desparate, School_Late, School_Early, Named_ParentY, Lied_About_Weekend, Too_Honest_About_Weekend, Is_Silly, Smartass_To_Kid, Met_CTD
 
 -> MainFlow
+
+== function getYear ==
+ ~ return 1984
 
 == function getJournalDate ==
 {
 - day == 1: 
-    May 21st, 2019
+    July 11th, {getYear()}
 - day == 2: 
-    May 23rd, 2019
-- else: 
-    June 2nd, 2019
+    July 14th, {getYear()}
+- day == 3: 
+    July 21st, {getYear()}
+- day == 4:
+    July 25th, {getYear()}
 }
 
 == function shouldEnd ==
 {
-    - day >= 4:
+    - day > 4:
         ~ return true
-    - else
+    - else:
         ~ return ALL_FACTS ? Is_Busted
+}
+
+== function meetCtd ==
+{
+    - ALL_FACTS !? Met_CTD:
+        ~ return true
+    - else:
+        ~ return false
 }
 
 == Almost_Caught ==
@@ -45,35 +68,15 @@ LIST ALL_FACTS = Is_Busted, Reluctant_To_Give_Name, Blames_Child, Remote_Heal, D
 
 == Loop ==
 ~ day += 1
-{getJournalDate()}
 {shouldEnd(): ->Almost_Caught}
+{getJournalDate()}
 { day == 1:
-    -> School ->
+    -> School -> Loop
 - else:
-    * We needed food -> GroceryStore 
-    * It was about time we relaxed a bit -> Movies
-    * I needed my morning fix of coffee -> Coffee_Shop
-    * We stayed inside -> Inside
+    * We needed food[...] so we drove over to {groceryStoreName}.
+    -> GroceryStore
+    * It was about time we relaxed a bit[...] so we went to see a movie.
+    -> Movies
+    * We stayed inside[...].
+    -> Inside
 }
-->Loop
-
-== GroceryStore ==
-A story about the GroceryStore goes here.
-+ Go on...
-->->
-== Movies ==
-A story about the Movies goes here.
-+ Go on...
-->->
-== Coffee_Shop ==
-A story about the coffee shop goes here.
-+ Go on...
-->->
-== Inside ==
-A story about staying indoors goes here.
-+ Go on...
-->->
-== Park ==
-A story about going to the park goes here.
-+ Go on..
-->->

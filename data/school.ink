@@ -99,9 +99,14 @@ I walked up behind the children and looked over them. A bird flew out from the c
     "Dakota, will you quit exaggerating. I'm sure it was just stunned. Come on, the bell is about to ring." {parentY} shot me a look that wasn't exactly friendly.
     ~ ALL_FACTS += (Smartass_To_Kid)
 - The bell rang. The stampede commenced as children darted to their designated areas to line up. My {childTitle} and I were left alone.
+
 "You know you can't do that here." I said to {childPronoun2}.
-"I know. It was so small and hurt. I just wanted to make it better and then it happened." {childPronoun1} looked up at me with a smile. I couldn't help but return it. I crouched down to {childPronoun3} level.
-"You have such an amazing gift. But you know, if someone found out they would take you away from me. So we have to keep it a secret for now."
+"I know. It was so small and hurt. I just wanted to make it better and then it happened." {childPronoun1} looked up at me with a smile. I couldn't help but return it. I crouched down to {childPronoun3} level. "{mainCharTitleAffectionate}, are we going to have to leave again?"
+* "Definitely not[...] it was a small slip up { ALL_FACTS ? Smartass_To_Kid: Dakota's mom might believe him but that's it. | no one seemed to believe Dakota. } I think we're in the clear."<>
+* "Maybe[...] we'll have to see."
+* "Probably[...], we should pack just in case."
+I idly straightened {childPronoun3} coat back onto {childPronoun3} shoulders.
+- "You have such an amazing gift. But you know, if someone found out they would take you away from me. So we have to keep it a secret for now." I motioned from {childPronoun3} heart to mine. "Between us."
 "Okay" {childPronoun1} looked at the ground and kicked aside a twig.
 "Okay. Now let's get you to class before you're late!" We ran as fast as a five year old's legs can carry them.
 ->->

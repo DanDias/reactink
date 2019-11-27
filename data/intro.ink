@@ -39,7 +39,7 @@ It's been just {childPronoun2} and me on the road, moving from town to town afte
 - I felt a warmth spread across my face. Suddenly the slight sting was gone. I wiped away the blood and no more poured out. That moment was the worst moment of my life.
 We've been looking over our shoulders ever since. So, Mr. Doe, I write this letter because we need the services of someone like you; now more than ever. We need someone to help us and warn us before anything can happen.
 I'm not sure what I can provide in the form of payment that you would value, but please, name your price. I'll do anything to keep them at bay. I won't let them take my {childTitle}.
-Please see the enclosed copy of my journal from these past few days for any details that may be relevant.
+Please see the enclosed copy of my journal entries from these past few weeks for any details that may be relevant.
 
 * Sincerely,
 * Cordially yours,
