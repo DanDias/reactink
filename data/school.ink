@@ -1,4 +1,5 @@
 == School ==
+#background: school_front
 We arrived at my {childTitle}'s school.
 * The bell would ring in twenty minutes.
     Traffic hadn't been as terrible as I had anticipated. Usually there's a long line of cars waiting to drop off their children, but that line hadn't yet started. -> SchoolParentEncounter
