@@ -27,6 +27,7 @@ We purchased the tickets. It wasn't long before I was having second thoughts abo
 We got tickets and entered the theater. The movie was a bit dull for me but it had some good moments and {childPronoun1} seemed to enjoy it.
 ->->
 == let_kid_choose ==
+~ childBond += 1
 "I want to see <>
 {
     - RANDOM(1,3) == 3:

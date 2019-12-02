@@ -110,4 +110,4 @@ I idly straightened {childPronoun3} coat back onto {childPronoun3} shoulders.
 - "You have such an amazing gift. But you know, if someone found out they would take you away from me. So we have to keep it a secret for now." I motioned from {childPronoun3} heart to mine. "Between us."
 "Okay" {childPronoun1} looked at the ground and kicked aside a twig.
 "Okay. Now let's get you to class before you're late!" We ran as fast as a five year old's legs can carry them.
-->->
+-> Loop

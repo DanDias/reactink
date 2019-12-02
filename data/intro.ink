@@ -12,6 +12,12 @@
         ~ childPronoun1 = "he"
         ~ childPronoun2 = "him"
         ~ childPronoun3 = "his"
+    - choice == 3:
+        ~ childGender = "NB"
+        ~ childTitle = "child"
+        ~ childPronoun1 = "they"
+        ~ childPronoun2 = "them"
+        ~ childPronoun3 = "their"
     }
 
 == Intro ==
@@ -28,9 +34,9 @@ I hope this letter finds you well.
 - who is very special. Not in the way that every parent thinks their child is special, but in a way that some people might want to dissect {childPronoun2} if they were to find out.
 You see, {childPronoun1} is a healer. At will, {childPronoun1} is able to mend any wound, cure any disease, even pull a life from the brink of death if it's soon enough.
 It's been just {childPronoun2} and me on the road, moving from town to town after each incident.
-* I still blame {childPronoun2}[] for not being able to save her mother. I know it's wrong of me but it's there in the back of my head. <>
+* I still blame {childPronoun2}[] for not being able to save {childPronoun3} mother. I know it's wrong of me but it's there in the back of my head. <>
     ~ ALL_FACTS += Blames_Child
-* I can't blame {childPronoun2}[] for not being able to save her mother. <>
+* I can't blame {childPronoun2}[] for not being able to save {childPronoun3} mother. <>
 - Poor thing was only a year old and had not yet used {childPronoun3} powers. One year and a day later was the first time. I cut myself shaving and {childPronoun1} reached up and cried out for me to hold {childPronoun2}. 
 * So I picked {childPronoun2} up[]. <>
 * Before I could do anything[], {childPronoun1} grabbed onto my leg. <>

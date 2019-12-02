@@ -1,4 +1,5 @@
 == Connection_To_Doe ==
+~ ALL_FACTS += Met_CTD
 That's when I saw a familiar face. {ctdName}. Two or three moves ago we had discovered a group of others who were like my {childTitle}. {ctdName} had run this support group. He had the ability to tell when people were lying. Small power, but useful. He caught my eye and walked over to us.
 "What are the chances of us ending up in the same town?" He reached out his hand.
 * "{ctdName}, how are you?"[] I took his hand and shook it firmly. 
