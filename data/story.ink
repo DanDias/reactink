@@ -61,7 +61,7 @@ LIST ALL_FACTS = Is_Busted, Reluctant_To_Give_Name, Blames_Child, Remote_Heal, D
         ~ return true
     - else:
         ~ return false
-}
+} blah blah blah
 
 == Almost_Caught ==
 I noticed the van almost immediately upon walking out of the door. I was just going out to pick up the paper. It was a black, non-descript van with tinted windows and no license plate. There was no way this was just a coincidence.
